@@ -1,0 +1,34 @@
+/* structure */
+body {
+    font-size: 17px;
+}
+
+#container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+
+.navigation-menu {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.navigation-menu li {
+    margin: 0.5rem;
+}
+
+
+.footer-menu {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.footer-menu li {
+    margin: 0.5rem;
+}

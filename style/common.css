@@ -1,1 +1,75 @@
-/* No CSS *//*# sourceMappingURL=common.css.map */
+/* vars */
+/* structure */
+body {
+  font-size: 17px;
+}
+
+#container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.navigation-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.navigation-menu li {
+  margin: 0.5rem;
+}
+
+.footer-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.footer-menu li {
+  margin: 0.5rem;
+}
+
+/* color */
+/* dark mode */
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: #eeeeee;
+    color: #111111;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #111111;
+    color: #eeeeee;
+  }
+}
+
+/* details */
+body {
+  font-family: "Helvetica Neue", "Arial", "Hiragino Kaku Gothic ProN", "Meiryo", "sans-serif";
+}
+
+.image-wrapper {
+  text-align: center;
+}
+
+.icon {
+  text-align: center;
+  width: 20rem;
+}
+/*# sourceMappingURL=common.css.map */
