@@ -8,27 +8,31 @@ body {
     margin: 0 auto;
 }
 
-
+.navigation-menu-wrapper {
+    @include row-menu-wrapper(right)
+}
 
 .navigation-menu {
-    display: flex;
-    list-style-type: none;
-    flex-wrap: wrap;
-    flex-direction: row;
+    //@include db-border(); //debug
+    @include row-menu()
 }
 
 .navigation-menu li {
     margin: 0.5rem;
 }
 
+.footer-menu-wrapper {
+    @include row-menu-wrapper(center)
+}
 
 .footer-menu {
-    display: flex;
-    list-style-type: none;
-    flex-wrap: wrap;
-    flex-direction: row;
+    @include row-menu()
 }
 
 .footer-menu li {
     margin: 0.5rem;
+}
+
+.copyright {
+    text-align: center;
 }
