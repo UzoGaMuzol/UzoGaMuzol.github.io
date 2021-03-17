@@ -4,6 +4,10 @@ body {
     font-family: $sans-serif;
 }
 
+a{
+    color: $black;
+}
+
 .image-wrapper {
     text-align: center;
 }
@@ -13,6 +17,6 @@ body {
     width: 20rem;
 }
 
-a{
-    color: $black;
+#site-name a{
+    text-decoration: none;
 }

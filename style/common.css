@@ -84,6 +84,10 @@ body {
   font-family: "Helvetica Neue", "Arial", "Hiragino Kaku Gothic ProN", "Meiryo", "sans-serif";
 }
 
+a {
+  color: #111111;
+}
+
 .image-wrapper {
   text-align: center;
 }
@@ -93,7 +97,7 @@ body {
   width: 20rem;
 }
 
-a {
-  color: #111111;
+#site-name a {
+  text-decoration: none;
 }
 /*# sourceMappingURL=common.css.map */
