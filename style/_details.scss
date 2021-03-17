@@ -4,12 +4,17 @@ body {
     font-family: $sans-serif;
 }
 
-.image-wrapper {
+figure {
     text-align: center;
 }
 
+figcaption {
+    font-size: 0.9em;
+    opacity: 0.8;
+    padding-bottom: 1.2rem;
+}
+
 .main-icon {
-    text-align: center;
     width: 20rem;
 }
 
