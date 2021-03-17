@@ -8,6 +8,10 @@ body {
     margin: 0 auto;
 }
 
+#header {
+    padding-bottom: 1rem;   
+}
+
 .navigation-menu-wrapper {
     @include row-menu-wrapper(right)
 }
@@ -19,6 +23,11 @@ body {
 
 .navigation-menu li {
     margin: 0.5rem;
+}
+
+#footer {
+    margin-top: 2rem;
+    padding-top: 1rem;
 }
 
 .footer-menu-wrapper {

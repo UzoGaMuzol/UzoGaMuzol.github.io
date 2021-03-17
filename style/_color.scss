@@ -8,6 +8,9 @@
     a {
       color: $black;
     }
+    #footer {
+      border-color: $black;
+    }
   }
   
 @media (prefers-color-scheme: dark) {
@@ -17,5 +20,8 @@
     }
     a {
       color: $base_white;
+    }
+    #footer {
+      border-color: $base_white;
     }
   }
