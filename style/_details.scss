@@ -6,6 +6,10 @@ body {
 
 figure {
     text-align: center;
+    margin-block-start: auto;
+    margin-block-end: auto;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
 }
 
 figcaption {
@@ -16,6 +20,7 @@ figcaption {
 
 .main-icon {
     width: 20rem;
+    max-width: 100%;
 }
 
 #site-name a{

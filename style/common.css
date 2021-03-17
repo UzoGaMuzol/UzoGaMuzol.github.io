@@ -117,6 +117,14 @@ body {
 
 figure {
   text-align: center;
+  -webkit-margin-before: auto;
+          margin-block-start: auto;
+  -webkit-margin-after: auto;
+          margin-block-end: auto;
+  -webkit-margin-start: auto;
+          margin-inline-start: auto;
+  -webkit-margin-end: auto;
+          margin-inline-end: auto;
 }
 
 figcaption {
@@ -127,6 +135,7 @@ figcaption {
 
 .main-icon {
   width: 20rem;
+  max-width: 100%;
 }
 
 #site-name a {
