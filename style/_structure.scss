@@ -1,7 +1,6 @@
 /* structure */
 html {
     font-size: 17px;
-    line-height: 1.85;
 }
 
 #container {
@@ -24,6 +23,10 @@ html {
 
 .navigation-menu li {
     margin: 0.5rem;
+}
+
+#content p {
+    line-height: 1.85;
 }
 
 #footer {
