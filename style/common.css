@@ -70,6 +70,9 @@ body {
     background-color: #eeeeee;
     color: #111111;
   }
+  a {
+    color: #111111;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -77,15 +80,14 @@ body {
     background-color: #111111;
     color: #eeeeee;
   }
+  a {
+    color: #eeeeee;
+  }
 }
 
 /* details */
 body {
   font-family: "Helvetica Neue", "Arial", "Hiragino Kaku Gothic ProN", "Meiryo", "sans-serif";
-}
-
-a {
-  color: #111111;
 }
 
 .image-wrapper {

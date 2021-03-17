@@ -5,11 +5,17 @@
       background-color: $base_white;
       color: $black;
     }
+    a {
+      color: $black;
+    }
   }
   
 @media (prefers-color-scheme: dark) {
     body {
       background-color: $black;
+      color: $base_white;
+    }
+    a {
       color: $base_white;
     }
   }
