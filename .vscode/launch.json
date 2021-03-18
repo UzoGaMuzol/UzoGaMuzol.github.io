@@ -8,7 +8,7 @@
             "type": "pwa-chrome",
             "request": "launch",
             "name": "Open index.html",
-            "file": "d:\\Documents\\websites\\UzoGaMuzol.github.io\\index.html"
+            "file": "${file}"
         }
     ]
 }
